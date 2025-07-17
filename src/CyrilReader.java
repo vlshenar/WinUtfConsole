@@ -33,6 +33,9 @@ public class CyrilReader{
 
 		//вывод на консоль
 		System.out.println(sb.toString());
+
+		//закрытие потока ввода
+		in.close();
 	}
 }
 
